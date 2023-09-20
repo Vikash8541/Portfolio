@@ -1073,20 +1073,20 @@ color: #6b52c6;
   transform-style: preserve-3d;
   transform: perspective(1000px);
   box-shadow: -1px -1px 56px -17px rgba(0,0,0,0.54);
-  background: url(../img/Website-samples/Colorlib-Desktop.png) no-repeat top;
+  background: url(../img/Website-samples/Colorlib-Desktop.jpg) no-repeat top;
   background-size: cover !important;
   border: 3px solid var(--dark-purple);
   transition: background-position 5s ease-out;
 }
 .sample-page:nth-child(2){
-  background: url(../img/Website-samples/Crypto-Desktop.png) no-repeat top;
+  background: url(../img/Website-samples/Crypto-Desktop.jpg) no-repeat top;
 }
 .sample-page:nth-child(3){
-  background: url(../img/Website-samples/HST-Desktop.png) no-repeat top;
+  background: url(../img/Website-samples/HST-Desktop.jpg) no-repeat top;
 }
 .sample-page:nth-child(4){
   height: 276px;
-  background: url(../img/Website-samples/Yankee-Desktop.png) no-repeat top;
+  background: url(../img/Website-samples/Yankee-Desktop.jpg) no-repeat top;
 }
 .sample-page:hover{
   background-position: bottom;
@@ -1097,18 +1097,18 @@ color: #6b52c6;
   top: 0;
   height: 100%;
   width: 20%;
-  background: url(../img/Website-samples/Colorlib-Mobile.png) no-repeat top;
+  background: url(../img/Website-samples/Colorlib-Mobile.jpg) no-repeat top;
   background-size: cover !important;
   transition: background-position 10s ease-in-out;
 }
 .sample-page .mob-2{
-  background: url(../img/Website-samples/crypto-Mobile.png) no-repeat top;
+  background: url(../img/Website-samples/crypto-Mobile.jpg) no-repeat top;
 }
 .sample-page .mob-3{
-  background: url(../img/Website-samples/HST-Mobile.png) no-repeat top;
+  background: url(../img/Website-samples/HST-Mobile.jpg) no-repeat top;
 }
 .sample-page .mob-4{
-  background: url(../img/Website-samples/Yankee-Mobile.png) no-repeat top;
+  background: url(../img/Website-samples/Yankee-Mobile.jpg) no-repeat top;
 }
 .sample-page:hover .mobile-sample{
   background-position: bottom;
