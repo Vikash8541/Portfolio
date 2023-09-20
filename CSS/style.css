@@ -1119,7 +1119,7 @@ color: #6b52c6;
   justify-content: space-around;
   position: absolute;
   top: auto;
-  bottom: -20%;
+  bottom: -35%;
   left: 50%;
   transform: translate(-50%, -2%);
   padding: 2px 5px;
@@ -1319,6 +1319,7 @@ select .selected {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 25px;
 }
 .footer-icon img {
@@ -1817,13 +1818,6 @@ select .selected {
     left: 0;
     padding-top: 1rem;
   }
-  .link-work:hover{
-    bottom: 25%;
-    transform: translate(-50%, -25%);
-  }
-  .sample-page:hover .link-work {
-    bottom: 25%;
-  }
   /* Samples work end */
 
   #contact {
@@ -1925,6 +1919,13 @@ select .selected {
     height: 160px;
     width: 300px;
   }
+  .footer-icon{
+    gap: 15px;
+  }
+  .footer-icon a {
+    height: 45px;
+    width: 45px;
+  }
 }
 @media (min-width: 220px) and (max-width: 320px) {
   .social-icon {
@@ -1937,6 +1938,13 @@ select .selected {
   .sample-page{
     height: 160px;
     width: 100%;
+  }
+  .footer-icon{
+    gap: 15px;
+  }
+  .footer-icon a {
+    height: 40px;
+    width: 40px;
   }
 }
 
